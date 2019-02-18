@@ -96,7 +96,7 @@
 			"": {
 				"dataSource": "mainService",
 				"settings": {
-					"defaultBindingMode": "TwoWay",
+					"defaultBindingMode": "OneWay",
 					"defaultCountMode": "Inline",
 					"refreshAfterChange": false
 				}
@@ -118,6 +118,7 @@
 					"name": "sap.suite.ui.generic.template.ListReport",
 					"list": true,
 					"settings": {
+						"gridTable": true,
 						"multiSelect": false
 					}
 				}
